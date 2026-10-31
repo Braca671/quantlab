@@ -1,0 +1,12 @@
+[project]
+name = "quantlab"
+version = "0.1.0"
+description = "Quantizzazione post-training da zero: RTN, OBS e GPTQ su CNN e transformer"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "torchvision", "numpy", "matplotlib"]
+
+[tool.setuptools]
+packages = ["quantlab"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
